@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e2f;
+    color: #f0f0f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+#logo {
+    max-width: 30%; 
+    height: auto; 
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Botón de Mostrar Campeones */
+#mostrarCampeonesBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+}
+
+#mostrarCampeonesBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor de Campeones */
+.champion-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    width: 80%;
+    margin: 20px 0;
+}
+
+/* Tarjetas de Campeones */
+.champion {
+    background-color: #2a2a3a;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative; /* Para el posicionamiento absoluto del overlay */
+    overflow: hidden; /* Para ocultar el contenido que sobresale */
+}
+
+.champion:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    filter: brightness(0.9); /* Oscurecer ligeramente */
+}
+
+.champion img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.champion p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .champion-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+    #mostrarCampeonesBtn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Contenedor de información adicional */
+.additional-info {
+    display: none; /* Ocultar por defecto */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+    color: white; /* Texto blanco */
+    padding: 20px; /* Espaciado */
+    border-radius: 10px;
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Mostrar información adicional al pasar el cursor */
+.champion:hover .additional-info {
+    display: block; /* Mostrar información adicional */
+}
+
+/* Estilos para el Modal */
+/* Estilos para el Modal */
+#imagen-grande {
+    display: flex; /* Usar flexbox para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    position: fixed; /* Fijar el modal */
+    top: 0; /* Arriba */
+    left: 0; /* A la izquierda */
+    right: 0; /* A la derecha */
+    bottom: 0; /* Abajo */
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    z-index: 999; /* Asegurar que esté encima de otros elementos */
+    overflow: auto; /* Habilitar desplazamiento si el contenido se desborda */
+}
+
+.imagen-grande-container {
+    display: flex; /* Usar flexbox para el contenido del modal */
+    background: rgba(0, 0, 0, 0.9); /* Fondo oscuro para el contenido */
+    padding: 20px; /* Espaciado */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 90%; /* Ancho máximo para el modal */
+    max-height: 90%; /* Altura máxima para evitar sobresalir */
+    overflow-y: auto; /* Desplazamiento vertical si es necesario */
+}
+
+.imagen-grande-container img {
+    width: 300px; /* Ajustar el tamaño de la imagen */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    margin-right: 20px; /* Espaciado a la derecha de la imagen */
+}
+
+.imagen-grande-texto {
+    color: #f0f0f5; /* Color de texto */
+    max-width: 60%; /* Limitar el ancho del texto para evitar desbordamiento */
+}
+
+#cerrar-imagen-grande {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px; /* Aumentar el tamaño del ícono de cierre */
+    color: #ffffff; /* Color blanco para el botón */
+}
+
+
+/* Estilos para las habilidades */
+.abilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar habilidades */
+    margin-top: 10px;
+}
+
+.ability {
+    margin: 10px;
+    text-align: center;
+    flex: 1 0 100px; /* Flexbox para hacer que cada habilidad tenga un ancho mínimo */
+}
+
+.ability img {
+    width: 50px; /* Ajusta según sea necesario */
+    height: auto;
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.ability p {
+    margin: 5px 0 0; /* Espaciado superior para el texto de habilidades */
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño para el texto */
+}
+
+/* Estilos para los títulos */
+h2, h3, h4 {
+    color: #ffffff; /* Color de texto */
+}
+
+h3 {
+    margin-top: 20px; /* Espaciado superior para secciones */
+}
