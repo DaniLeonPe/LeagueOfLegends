@@ -1,4 +1,5 @@
 // URL del JSON que contiene la información de los campeones
+import {Campeon} from './Campeon.js';
 const championsUrl = 'https://ddragon.leagueoflegends.com/cdn/13.18.1/data/es_ES/champion.json';
 
 // Función para obtener los datos y mostrar las imágenes

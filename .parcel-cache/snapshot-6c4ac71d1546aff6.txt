@@ -1,13 +1,13 @@
-7664
+7666
 61/home/dam/Escritorio/2ºDAM/LeagueOfLegends/src/assets/images1728394188402445000 1
 54/home/dam/Escritorio/2ºDAM/LeagueOfLegends/src/assets1728394188394445000 1
 61/home/dam/Escritorio/2ºDAM/LeagueOfLegends/src/css/index.css1728394188402445000 0
 50/home/dam/Escritorio/2ºDAM/LeagueOfLegends/src/js1728401626127607014 1
-65/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/lol.bec241a5.png1728401401100167752 0
-59/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.html1728401402192165069 0
-67/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.f94bf048.css1728401402192165069 0
-66/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.da44360b.js1728401402192165069 0
-48/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist1728401402196165061 1
+65/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/lol.bec241a5.png1728401673539487202 0
+59/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.html1728401674483484809 0
+67/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.f94bf048.css1728401674483484809 0
+66/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.da44360b.js1728401674483484809 0
+48/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist1728401674491484791 1
 49/home/dam/Escritorio/2ºDAM/LeagueOfLegends/build1728400382782264093 1
 82/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/ordered-binary/index.d.ts1728401362668261887 0
 86/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/ordered-binary/dist/index.cjs1728401362568262132 0
@@ -120,7 +120,7 @@
 102/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/stylehacks/types/plugins/mediaSlash9.d.ts.map1728400386538259197 0
 89/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/stylehacks/types/exists.d.ts.map1728400386502259244 0
 86/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/stylehacks/types/isMixin.d.ts1728400386570259154 0
-58/home/dam/Escritorio/2ºDAM/LeagueOfLegends/src/index.html1728394188402445000 0
+58/home/dam/Escritorio/2ºDAM/LeagueOfLegends/src/index.html1728401657723527219 0
 97/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/stylehacks/types/dictionary/postcss.d.ts1728400386578259145 0
 94/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/stylehacks/types/dictionary/tags.d.ts1728400386578259145 0
 85/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/stylehacks/types/exists.d.ts1728400386562259165 0
@@ -521,7 +521,7 @@
 90/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@swc/helpers/esm/_create_super.js1728401362856261429 0
 99/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@swc/helpers/esm/_sliced_to_array_loose.js1728401362860261417 0
 95/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@swc/helpers/esm/_non_iterable_rest.js1728401362856261429 0
-66/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/logo.2a763020.png1728401402164165139 0
+66/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/logo.2a763020.png1728401674447484903 0
 83/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@swc/helpers/esm/_using.js1728401362860261417 0
 86/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@swc/helpers/esm/_decorate.js1728401362856261429 0
 93/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@swc/helpers/esm/_sliced_to_array.js1728401362860261417 0
@@ -2821,6 +2821,7 @@
 104/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@swc/helpers/esm/_class_private_field_update.js1728401362852261437 0
 105/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/caniuse-lite/data/features/css-grid-animation.js1728400386630259076 0
 88/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/caniuse-lite/data/regions/CF.js1728400386602259112 0
+70/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.b46978ad.js.map1728401674491484791 0
 106/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@swc/helpers/_/_class_static_private_field_update1728401362772261634 1
 96/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/postcss-discard-overridden/src/index.js1728400386510259233 0
 91/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/entities/lib/decode_codepoint.d.ts1728400386582259140 0
@@ -4901,6 +4902,7 @@
 97/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/lmdb/dependencies/lmdb-data-v1/libraries1728401362560262152 1
 99/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@babel/helper-validator-identifier/scripts1728401362636261966 1
 82/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@parcel/namer-default/src1728401362580262104 1
+66/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.b46978ad.js1728401674483484809 0
 83/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/css-what/lib/es/types.d.ts1728400386470259286 0
 117/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/msgpackr-extract/node_modules/detect-libc/lib/detect-libc.js1728401362580262104 0
 79/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/semver/ranges/valid.js1728401362728261740 0
@@ -6762,7 +6764,7 @@
 116/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/csso/node_modules/css-tree/lib/utils/create-custom-error.js1728400386626259082 0
 76/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/parse-json/index.js1728401362560262152 0
 102/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/csso/node_modules/css-tree/lib/utils/clone.js1728400386626259082 0
-70/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.da44360b.js.map1728401402196165061 0
+70/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.da44360b.js.map1728401674491484791 0
 107/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/csso/node_modules/css-tree/lib/convertor/create.js1728400386630259076 0
 102/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/csso/node_modules/css-tree/lib/utils/index.js1728400386638259066 0
 132/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/replace/property/background.js1728401362688261839 0
@@ -6950,7 +6952,7 @@
 103/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@parcel/core/src/registerCoreWithSerializer.js1728401362816261527 0
 53/home/dam/Escritorio/2ºDAM/LeagueOfLegends/.cache/001728400574665972033 1
 83/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@parcel/graph/lib/index.js1728401362700261808 0
-71/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.f94bf048.css.map1728401402196165061 0
+71/home/dam/Escritorio/2ºDAM/LeagueOfLegends/dist/index.f94bf048.css.map1728401674491484791 0
 69/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/mdn-data/api1728400386446259316 1
 110/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@parcel/transformer-postcss/src/PostCSSTransformer.js1728401362644261946 0
 83/home/dam/Escritorio/2ºDAM/LeagueOfLegends/node_modules/@parcel/graph/lib/types.js1728401362712261780 0

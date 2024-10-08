@@ -1,4 +1,4 @@
-class Campeon {
+export class Campeon {
     constructor(data) {
         this.name = data.name; // Nombre del campeón
         this.imageUrl = `https://ddragon.leagueoflegends.com/cdn/14.19.1/img/champion/${data.image.full}`; // URL de la imagen del campeón
