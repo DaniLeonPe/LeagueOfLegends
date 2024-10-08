@@ -1,0 +1,2 @@
+async function e(){try{let e=await fetch("https://ddragon.leagueoflegends.com/cdn/13.18.1/data/es_ES/champion.json"),n=(await e.json()).data,t=document.getElementById("championContainer");Object.keys(n).forEach(e=>{let o=n[e],a=new Campeon(o).crearElemento();t.appendChild(a)})}catch(e){console.error("Error al obtener los datos de los campeones:",e)}}document.getElementById("mostrarCampeonesBtn").addEventListener("click",function(){document.getElementById("mostrarCampeonesBtn").style.display="none",e()});
+//# sourceMappingURL=index.da44360b.js.map
