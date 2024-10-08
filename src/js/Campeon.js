@@ -29,6 +29,8 @@ export class Campeon {
         }
     }
 
+    //agrega las habilidades al campeón
+
     async loadAbilities() {
         try {
             const response = await fetch(`https://ddragon.leagueoflegends.com/cdn/14.19.1/data/es_MX/champion/${this.id}.json`);
@@ -41,9 +43,11 @@ export class Campeon {
         }
     }
 
+    //verifica si existe la imagen del campeón y la carga
+
     async checkImageExists(url) {
         const response = await fetch(url, { method: 'HEAD' });
-        return response.ok; // Verifica si la imagen existe
+        return response.ok; 
     }
 
     async cambiarSkin(championImg) {
@@ -55,7 +59,7 @@ export class Campeon {
 
         let skinUrl;
 
-        // Determine the URL for the current skin
+        // Si es la skin original, usa la skin 0
         if (this.currentSkinIndex === 0) {
             // Skin original
             skinUrl = `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${this.id}_0.jpg`;
@@ -150,7 +154,7 @@ export class Campeon {
         `;
     
         // Mostrar el modal
-        imagenGrande.style.display = 'flex'; // Cambiado a 'flex' para centrar el contenido
+        imagenGrande.style.display = 'flex'; 
     
         // Seleccionar el elemento de la imagen grande correctamente después de que se ha agregado al DOM
         const imgGrandeElement = document.getElementById('img-grande');
